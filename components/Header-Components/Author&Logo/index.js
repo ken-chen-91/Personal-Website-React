@@ -17,7 +17,7 @@ const Author = () => {
         ></path>
       </svg>
       <Texty className="author" mode="smooth">
-    Ken_Chen
+          Ken_Chen
       </Texty>
 
       

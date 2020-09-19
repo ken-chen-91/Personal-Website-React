@@ -1,0 +1,75 @@
+.banner-custom{
+    border-radius: .3rem;
+    border: none;
+    text-decoration: none;
+    padding: 0.7rem 1.4rem;
+    
+}
+
+.banner-button1{
+    color: rgb(0, 196, 255) ;
+    background-color: rgb(249, 248, 248);
+    box-shadow: rgb(185, 185, 185) 0px 13px 19px -6px; 
+}
+
+.banner-button1:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+
+.banner-button2{
+    background-color: rgb(0, 196, 255) ;
+    box-shadow: rgba(0, 196, 255, 0.9) 0px 13px 19px -6px;
+    cursor: pointer;
+    
+}
+
+.banner-button2:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+
+.banner-span1{
+    font-size: 1rem;
+}
+
+.banner-span2{
+    color: rgb(255,255,255);
+    font-size: 1rem;
+}
+
+
+@keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+  
+    25%,
+    75% {
+      transform: scale(0.9, 1.1);
+    }
+  
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+  }
+  
+
+  .description{
+      color: rgb(128, 128, 128);
+      font-size: large;
+  }
+
+  .banner-name{
+      color: rgb(78, 177, 181);
+  }
+
+  .intro{
+    padding: 4rem 1rem;
+  }
+
+  
+  
+
+

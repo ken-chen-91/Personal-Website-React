@@ -1,3 +1,4 @@
 .line{
-    margin-top: -.4rem;
+    margin: -1rem !important;
+    border-bottom: rgb(208,208,208) !important;
 }

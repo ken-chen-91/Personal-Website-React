@@ -5,7 +5,7 @@ import Intro from '../../Banner-Components'
 const Banner = () => {
     return (
         <div className="banner-container">
-            <Row >    
+            <Row justify="center" >    
                 <Intro/>
             </Row>
             

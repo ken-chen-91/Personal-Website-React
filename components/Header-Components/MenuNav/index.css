@@ -1,9 +1,8 @@
 .button-custom{
     margin-top: 1rem;
-    border:transparent !important;
-    color: rgb(109,109,109);
+    /* border:transparent !important; */
+    /* color: rgb(109,109,109); */
 }
 
-.menuNav-container{
-    margin-top: -1rem;
-}
+
+

@@ -6,16 +6,16 @@ import Line from "../../Header-Components/Line";
 
 const Header = () => {
   return (
-    <>
-      <div className="header_outside_container">
+
+      <div className="header-container">
         <Affix>
           <Row className="header" justify="center">
             
-            <Col className="header-left" span={12} xs={2} sm={4} md={6} lg={8} xl={10}>
+            <Col push={2} className="header-left" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
               <Author />
             </Col>
             <Row justify="space-around" align="middle">
-              <Col span={12} xs={20} sm={16} md={12} lg={8} xl={4} pull={7}>
+              <Col pull={6} className="header-right" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
                 <MenuNav />
               </Col>
             </Row>
@@ -23,7 +23,7 @@ const Header = () => {
           <Line />
         </Affix>
       </div>
-    </>
+
   );
 };
 

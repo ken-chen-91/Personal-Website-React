@@ -1,9 +1,12 @@
-import { Divider } from 'antd';
+import { Divider,Row } from 'antd';
 import './index.css'
 const Line = () =>{
     return(
         <div >
-            <Divider className="line" />
+            <Row className="line" >
+                <Divider />
+            </Row>
+            
         </div>
     )
 }
