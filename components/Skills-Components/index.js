@@ -1,6 +1,6 @@
 import { Row, Col, Card } from "antd";
-import { tuple } from "antd/lib/_util/type";
 import "./index.css";
+const { Meta } = Card;
 
 const Skill = () => {
   return (
@@ -13,13 +13,24 @@ const Skill = () => {
         </Col>
       </Row>
       <Row justify="space-around">
-        <Col span={6} className="skill-card">
-          <img src="/static/skills/coder.svg"></img>
-          <span   className="skill-font">Web Developer</span>
+        <Col span={4} >
+          <Card className="skill-card "  hoverable="true" bordered={false}>
+            <img className="card1" src="/static/skills/coder.svg"></img>
+            <span className="skill-font">Web Developer</span>
+          </Card>
         </Col>
-        <Col span={6} className="skill-card">
-          <img src="/static/skills/designer.svg"></img>
-          <span  className="skill-font">UI / UX Design</span>
+        
+        <Col span={4} className="skill-card ">
+          <Card  className="skill-card " hoverable="true" bordered={false} >
+            <img className="card2" src="/static/skills/designer.svg"></img>
+            <span className="skill-font">UI / UX Design</span>
+            
+          </Card>
+        </Col>
+      </Row>
+      <Row justify="center">
+        <Col>
+          <a className="skill-question">See the tech tools I use?</a>
         </Col>
       </Row>
     </div>

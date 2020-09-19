@@ -11,11 +11,11 @@ const Header = () => {
         <Affix>
           <Row className="header" justify="center">
             
-            <Col push={2} className="header-left" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
+            <Col  className="header-left" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
               <Author />
             </Col>
-            <Row justify="space-around" align="middle">
-              <Col pull={6} className="header-right" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
+            <Row  align="middle">
+              <Col  className="header-right" span={12} xs={24} sm={24} md={16} lg={18} xl={14}>
                 <MenuNav />
               </Col>
             </Row>
