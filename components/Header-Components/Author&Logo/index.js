@@ -1,11 +1,11 @@
+import { Row } from "antd";
 import Texty from "rc-texty";
 import "./index.css";
 
 const Author = () => {
   return (
-    <div className="author_container">
-      
-      <svg className="logo" viewBox="0 0 60 60"  >
+    <Row justify="start" className="author_container">
+      <svg className="logo" viewBox="0 0 60 60">
         <path
           fill="none"
           stroke="#212121"
@@ -17,12 +17,9 @@ const Author = () => {
         ></path>
       </svg>
       <Texty className="author" mode="smooth">
-          Ken_Chen
+        Ken_Chen
       </Texty>
-
-      
-      
-    </div>
+    </Row>
   );
 };
 

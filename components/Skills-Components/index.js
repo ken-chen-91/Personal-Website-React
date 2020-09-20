@@ -19,10 +19,12 @@ const Skill = () => {
             <span className="skill-font">Web Developer</span>
           </Card>
         </Col>
+
+        
         
         <Col span={4} className="skill-card ">
           <Card  className="skill-card " hoverable="true" bordered={false} >
-            <img className="card2" src="/static/skills/designer.svg"></img>
+            <img className="card1" src="/static/skills/designer.svg"></img>
             <span className="skill-font">UI / UX Design</span>
             
           </Card>
